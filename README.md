@@ -14,6 +14,7 @@ In this project, we analyze a dataset from Kaggle, specifically the [Telecom Cus
 - [Model Building](#model-building)
 - [Model Evaluation](#model-evaluation)
 - [Conclusion](#conclusion)
+- [How to Run](#how-to-run)
 
 ## Project Overview
 
@@ -49,7 +50,19 @@ In conclusion, this project aims to provide insights into telecom customer churn
 
 Throughout this project, we follow best practices in data analysis, including data visualization, feature engineering, and model selection. We hope that the insights gained from this analysis will be valuable in addressing the challenge of telecom customer churn.
 
+## How to Run
 
+To run this project, follow these steps:
+
+1. Run the Google Colab notebook `Churn_data_analysis.ipynb`.
+
+2. Upload the `churn_dataset.csv` file to your Google Colab environment. Make sure the file is in the same directory as the notebook.
+
+3. In the notebook, import the dataset correctly by reading it from the uploaded file:
+
+   ```python
+   import pandas as pd
+   churn_data = pd.read_csv('churn_dataset.csv')
 
 ## Credits
 
